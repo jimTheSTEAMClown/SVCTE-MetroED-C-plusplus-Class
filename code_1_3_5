@@ -5,12 +5,12 @@
 #include <iostream>
 using namespace std;
 int main(void) {
-	int variableWithvalueAssigned = 3;
-	int variableWithvalueNotAssigned;
-	cout << "\n this is the value of variableWithvalueAssigned \t ";
-	cout << variableWithvalueAssigned;
-	cout << "\n this is the value of variableWithvalueNotAssigned \t ";
-	cout << variableWithvalueNotAssigned;
+	int variableWithValueAssigned = 3;
+	int variableWithValueNotAssigned;
+	cout << "\n this is the value of variableWithValueAssigned \t ";
+	cout << variableWithValueAssigned;
+	cout << "\n this is the value of variableWithValueNotAssigned \t ";
+	cout << variableWithValueNotAssigned;
 
 return 0;
 }
