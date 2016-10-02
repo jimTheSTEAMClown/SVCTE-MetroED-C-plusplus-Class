@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int main(void) {
+  int i;
+  float f;
+  
+  f = 1E10;
+  i = f;
+  cout << f;
+  cout << "\n";
+  cout << i;
+}
