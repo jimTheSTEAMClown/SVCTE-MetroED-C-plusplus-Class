@@ -1,0 +1,16 @@
+// This code is to show that the default assignment of a variable, 
+// is compiler dependent, and the default could be 0 or something else... 
+// like 134514688 -- what is that number?
+// ------------------------------------------------------------------------------------------
+#include <iostream>
+using namespace std;
+int main(void) {
+	int variableWithvalueAssigned = 3;
+	int variableWithvalueNotAssigned;
+	cout << "\n this is the value of variableWithvalueAssigned \t ";
+	cout << variableWithvalueAssigned;
+	cout << "\n this is the value of variableWithvalueNotAssigned \t ";
+	cout << variableWithvalueNotAssigned;
+
+return 0;
+}
