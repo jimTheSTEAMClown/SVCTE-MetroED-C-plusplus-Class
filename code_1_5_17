@@ -1,0 +1,22 @@
+// This code is to show the charater assignment valuse
+// ------------------------------------------------------------------------------------------
+#include <iostream>
+using namespace std;
+int main(void) {
+char myChar;
+myChar = 'A' + 32;
+cout << myChar << '\n';
+myChar = 'A' + ' ' ;
+cout << myChar << '\n';
+myChar = 65 + ' ';
+cout << myChar << '\n';
+myChar = 97 - ' ';
+cout << myChar << '\n';
+myChar = 'a' - 32;
+cout << myChar << '\n';
+myChar = 'a' - ' ';
+cout << myChar << '\n';
+
+return 0;
+}
+
