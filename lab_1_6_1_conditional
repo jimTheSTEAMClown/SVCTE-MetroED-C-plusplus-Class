@@ -1,3 +1,14 @@
+// Now listen to an ancient story that says:
+// We need a number that:
+// is greater than or equal to zero and less than ten
+// or
+// its value multiplied by 2 is less than twenty and its value reduced by two is greater than minus two
+// or
+// its value reduced by one is greater than one and its value divided by 2 is less than ten
+// or
+// it is equal to 111
+// Write the above condition in the form of expression accepted by the C++ language and assign its result to the answer variable.
+//
 #include <iostream>
 using namespace std;
 int main(void) {
@@ -5,7 +16,7 @@ int main(void) {
   int value;
   cout << "Enter a value: ";
   cin >> value;
-  answer = value; // insert your expression here. See description
+  answer = value; // insert your expression here. See lab description
   cout << (answer ? "THAT'S TRUE :)" : "THAT'S NOT TRUE :(") << endl;
 return 0;
 }
